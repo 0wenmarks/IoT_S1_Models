@@ -1,0 +1,2 @@
+version,device name,recording epoch time,recording time,recording timezone,platform,appVersion,device id,sensors,sampleRateMs,standardisation,platform version
+3,iPhone 12 mini,1793286704303,2026-10-29_15-11-44,Europe/London,ios,1.68,a240838a-2375-4556-8c4a-c0746b650cf9,Accelerometer|Gravity|Gyroscope|Orientation|Annotation|GyroscopeUncalibrated|AccelerometerUncalibrated,20|20|20|20||20|20,false,26.2.1

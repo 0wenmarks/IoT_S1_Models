@@ -1,0 +1,2 @@
+version,device name,recording epoch time,recording time,recording timezone,platform,appVersion,device id,sensors,sampleRateMs,standardisation,platform version
+3,2312DRA50G,1793622226457,2026-11-02_12-23-46,Europe/London,android,1.68,f4f56f8f-0ade-4e79-adce-a57819c35ea8,Accelerometer|Gravity|Gyroscope|Orientation|Annotation|TotalAcceleration|GyroscopeUncalibrated|AccelerometerUncalibrated,20|20|20|20||20|20|20,false,36

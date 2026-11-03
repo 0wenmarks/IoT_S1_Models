@@ -1,4 +1,4 @@
-#I acknowledge the use of Claude https://claude.ai for code debugging several elements of this program. All output was critically evaluated and modified.
+#I acknowledge the use of Claude https://claude.ai for code debugging several elements of this program and to add detailed comment for easier undertanding upon marking. All output was critically evaluated and modified.
 
 
 

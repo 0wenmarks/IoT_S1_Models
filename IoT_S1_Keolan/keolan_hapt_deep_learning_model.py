@@ -9,6 +9,8 @@ Original file is located at
 A Deep Learning Model for the HAPT data set found at:
 
  https://www.kaggle.com/datasets/nickpisarevds/smartphonebased-recognition-of-hapt?resource=download
+
+I acknowledge the use of Claude (Accessable at: Claude.ai as of November 3rd 2026) for the purposes of debugging several elements of this program in addition to providing code recommendations for how to produce the several graphical outputs which were then modified by the author.
 """
 
 #Importing libraries needed for dataset importing

@@ -66,7 +66,7 @@ def iter_sensor_tables(source):
                         yield base.lower(), pd.read_csv(f)#reads it and hands back its name and table
 
 
-# ---------------- Cleaning the signals ----------------
+# ---------------- Cleaning the Data ----------------
 def lowpass(signal, cutoff_hz, order=3):
     """Zero-phase Butterworth low-pass filter applied along the time axis."""
     b, a = butter(order, cutoff_hz / (FS / 2), btype="low")#designs the filter, dividing the cutoff by half the sampling rate converts Hz into the form the filter needs
@@ -123,7 +123,7 @@ def make_windows(rec, label):
     return X, np.full(len(X), label)#returns the feature rows and a label for every window
 
 
-# ---------------- Evaluation and plotting ----------------
+# ---------------- Evaluation and plotting grasphs----------------
 def evaluate_and_plot(X, y, groups, feature_names, title, group_names=None, group_label="recording"):#Plots the results of the decision tree model and prints out the accuracy and classification report
     #
     y_pred = np.empty_like(y)#creates an empty array with the same shape and type as y
@@ -233,7 +233,7 @@ def run_sensor_logger(data_dir):
 
 
 # ---------------- Run both ----------------
-# %%
+# %% 
 if __name__ == "__main__":#only runs the code below when this file is run directly, not when it is imported
     PROJECT_DIR = r"C:\Users\zicob\Documents\GitHub\IoT_S1_Models\IoT_S1_Zico\Basic_Decision_tree_Model22"
 

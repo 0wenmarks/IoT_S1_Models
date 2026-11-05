@@ -187,7 +187,7 @@ def run_hapt(data_dir, sitting_id=4, standing_id=5):#runs the HAPT data through 
                       group_names=group_names, group_label="subject")#passes the subject names and label so the printout says subject
 
 
-# ---------------- 2. Sensor Logger data ---------------- #Training and testing on your own recordings
+# ---------------- 2. Sensor Logger data ---------------- 
 def run_sensor_logger(data_dir):
     all_X, all_y, all_groups = [], [], []#empty lists to collect windows, labels and group numbers from every recording
     summary = []#empty list to hold one summary line per recording used
@@ -235,7 +235,7 @@ def run_sensor_logger(data_dir):
 # ---------------- Run both ----------------
 # %%
 if __name__ == "__main__":#only runs the code below when this file is run directly, not when it is imported
-    PROJECT_DIR = r"C:\Users\zicob\Documents\GitHub\IoT_S1_Models\IoT_S1_Zico\Basic_Decision_tree_Model22"#the main project folder, change this to your own path
+    PROJECT_DIR = r"C:\Users\zicob\Documents\GitHub\IoT_S1_Models\IoT_S1_Zico\Basic_Decision_tree_Model22"
 
     run_hapt(data_dir=os.path.join(PROJECT_DIR, "Train"))#trains and tests the model on the HAPT data
-    run_sensor_logger(data_dir=os.path.join(PROJECT_DIR, "Data"))#trains and tests the model on your sensor logger recordings
+    run_sensor_logger(data_dir=os.path.join(PROJECT_DIR, "Data"))#trains and tests the model on sensor logger recordings
